@@ -1,0 +1,1261 @@
+@charset "UTF-8";
+@import url(../bootstrap-5.3.3/scss/bootstrap.scss);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Establecer la fuente para los títulos y subtítulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Alegreya", serif; /* Puedes cambiar a otra fuente si lo prefieres */
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  transition: all 0.3s ease;
+}
+
+.headercolor {
+  background-color: #ffbf00 !important;
+}
+
+.carritomaxi {
+  width: 35px;
+  height: 35px;
+}
+
+.navh:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.cultores01 {
+  text-align: center;
+}
+
+.margenmaxi01 {
+  margin-top: 50px;
+}
+
+.beeja {
+  width: 50px;
+  height: 50px;
+}
+
+.jefemaxi {
+  font-style: oblique;
+}
+
+.abejilla {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.pacultormaxi {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.imgtamanomaxi {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.centramaxi {
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.apicultoresmaxi {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.imgtamaxi {
+  max-width: 60%;
+  height: auto;
+}
+
+.margenmaxi7 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.maximargen01 {
+  margin-top: 30px;
+  align-items: center;
+}
+
+.nombrerecetamaxi {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.centrarmaxi2 {
+  padding-top: 30px !important;
+}
+
+.margentremaxi {
+  margin-bottom: 5px;
+}
+
+.abejamaxi99 {
+  width: 40px;
+  height: 40px;
+}
+
+.contenedormaxi {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  justify-content: center;
+  border: solid 2px black;
+}
+
+.maxiul00 li {
+  margin-bottom: 18px;
+}
+
+.contenedorpremaxi {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  justify-content: center;
+  border: solid 2px black;
+}
+
+.listamaxi8 {
+  width: 90%;
+}
+
+.listamaxi8 li {
+  margin-bottom: 18px;
+}
+
+.imaxi09 {
+  width: 200px;
+  height: 300px;
+}
+
+.preciomaxi9 {
+  font-weight: bold;
+}
+
+.margenmaxi88 {
+  margin-top: 35px;
+}
+
+.cntromaxi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.tarjetamaxi {
+  width: 100%;
+  border: 2px solid #000;
+  min-height: 490px;
+}
+
+.separacionmaxi00 {
+  margin-top: 20px;
+}
+
+.btonm {
+  background-color: white;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 30px;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btonm:hover {
+  background-color: #000;
+  color: white;
+}
+
+.paginadormaxi {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.activomaxi:focus {
+  background-color: #ffbf00 !important;
+}
+
+@media only screen and (max-width: 769px) {
+  .contenedorpremaxi {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .tarjetamaxi {
+    margin-top: 50px;
+  }
+}
+.h1tro {
+  text-align: center;
+}
+
+.petro {
+  text-align: center;
+}
+
+.an {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.yutumaxi {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.imgcaruselma {
+  width: 100%;
+  height: 380px;
+}
+
+.textomaxi9999 {
+  align-items: center;
+  margin-top: 35px;
+}
+
+.flesmaxi {
+  flex-direction: row-reverse;
+}
+
+.maxi99 {
+  text-align: center;
+}
+
+.botomnxi {
+  background-color: #ffbf00;
+  color: white !important;
+  font-size: 16px;
+  padding: 12px 25px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.botomnxi:hover {
+  background-color: #795b02;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+.botomnxi:active {
+  background-color: #ae8302;
+}
+
+.aamasi {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.paxi990 {
+  margin-top: 70px;
+  text-align: left;
+}
+
+.tamano00 {
+  width: 80%;
+  height: 50px;
+}
+
+.forma000 {
+  margin-top: 30px;
+}
+
+.cantidadform {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forma08 {
+  margin-top: 20px;
+}
+
+.boton99 {
+  background-color: #ffbf00;
+  color: white !important;
+  font-size: 16px;
+  padding: 15px 40px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin: 20px auto;
+}
+
+.boton99:hover {
+  background-color: #795b02;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.formaxi1 {
+  width: 50%;
+}
+
+.contenido {
+  text-align: center;
+  margin: 50px;
+}
+
+.contenido p {
+  text-align: justify;
+}
+
+.contenido .segundo-texto {
+  margin-top: 25px;
+}
+
+.contenido-info {
+  text-align: center;
+  margin: 50px;
+}
+
+.disclaim {
+  text-align: left;
+  font-size: 10px;
+}
+
+.contenido-info p {
+  text-align: justify;
+}
+
+.contenido-info .segundo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+ul li {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.infor-extra {
+  text-align: left;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.infor-extra a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.boton-perso {
+  background-color: #ffbf00;
+  color: white !important;
+  font-size: 16px;
+  padding: 12px 25px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.boton-perso:hover {
+  background-color: #795b02;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+.boton-perso:active {
+  background-color: #ae8302;
+}
+
+.contenido-contacto {
+  text-align: center;
+  margin: 50px;
+}
+
+.contenido-contacto .container {
+  margin-bottom: 50px;
+}
+
+.boton-perso02 {
+  background-color: #ffbf00;
+  color: white !important;
+  font-size: 16px;
+  padding: 12px 25px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.boton-perso02:hover {
+  background-color: #795b02;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+.boton-perso02:active {
+  background-color: #ae8302;
+}
+
+@media (max-width: 768px) {
+  .text-center img {
+    display: none;
+  }
+}
+/* Fondo y colores generales */
+.footer {
+  background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.9), #1b1a1a);
+  color: black;
+  padding: 30px 0;
+  position: relative;
+  margin-top: 20px;
+}
+
+/* Línea de separación arriba del footer */
+.footer-line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+/* Logo en el footer */
+.logo-footer {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Títulos en el footer */
+.footer-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilo para los íconos de redes sociales */
+.social-icons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #f39c12;
+  transform: scale(1.1);
+}
+
+.social-icon-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.social-name {
+  font-size: 1rem;
+}
+
+/* Estilos para los iconos de contacto */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Contenedor del mapa en el footer */
+.map-container {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .social-icons {
+    justify-content: center;
+  }
+  .contact-list li {
+    text-align: center;
+  }
+  .map-container iframe {
+    height: 200px;
+  }
+}
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Barra de Promoción */
+.promo-bar {
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #d34508; /* Amarillo oscuro */
+}
+
+.promo-bar {
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #28a745; /* Verde */
+  overflow: hidden; /* Evita que el texto se desborde */
+}
+
+.promo-text {
+  animation: move-text 10s linear infinite; /* Hace que el texto se desplace */
+}
+
+/* Animación para mover el texto */
+@keyframes move-text {
+  0% {
+    transform: translateX(100%); /* Comienza fuera de la pantalla a la derecha */
+  }
+  100% {
+    transform: translateX(-100%); /* Termina fuera de la pantalla a la izquierda */
+  }
+}
+/* Header */
+.header {
+  padding-top: 0;
+}
+
+/* Estilos para el carrusel dentro del header */
+.header .carousel-item img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Estilos para las leyendas del carrusel */
+.header .carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, rgba(255, 191, 0, 0.8), rgba(255, 191, 0, 0.6)), url("assets/img/hero.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 80px 0;
+  margin-top: px;
+}
+
+.hero .btn {
+  background-color: #FFBF00;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+.hero .btn:hover {
+  background-color: #cc9900;
+  color: #fff;
+}
+
+/* Sección de Productos */
+.productos {
+  background-color: #fff;
+  padding-top: 30px;
+}
+
+.productos .card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.productos .card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.productos .card-img-top {
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.productos .card-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.productos .card-body h5 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.productos .card-body p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.productos .card-body .btn {
+  background-color: #FFBF00;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+.productos .card-body .btn:hover {
+  background-color: #cc9900;
+  color: #fff;
+}
+
+/* Historia Section */
+.historia {
+  background-color: #f4f4f4;
+  padding: 80px 0;
+}
+
+.historia .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.historia .lead {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.historia .row {
+  margin-bottom: 40px;
+}
+
+.historia .col-md-6 {
+  padding: 20px;
+}
+
+.historia img {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.historia img:hover {
+  transform: scale(1.05);
+}
+
+.historia h3 {
+  font-size: 1.7rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.historia p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Contenedor para el video */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilos para el encabezado */
+.headercolor, header {
+  background-color: #ffbf00 !important;
+}
+
+.navh:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.textopublicidad {
+  background-color: rgba(18, 18, 18, 0.9411764706);
+  margin-top: 5%;
+  color: #ccc;
+  font-weight: lighter;
+}
+
+.textopublicidad h3 {
+  font-weight: lighter;
+  font-size: large;
+  padding: 20px;
+}
+
+/* ----------------------------- SECCIÓN CAROUSEL ----------------------------- */
+#carouselejemplo {
+  /* Contenedor del carousel */
+  /* Estilo para cada item dentro del carousel */
+}
+#carouselejemplo .carousel-inner {
+  position: relative; /* Necesario para el control de las imágenes */
+  width: 100%;
+  height: 500px; /* Altura del carousel */
+  overflow: hidden; /* Esconde cualquier contenido fuera de la caja */
+  margin-top: 3%;
+}
+#carouselejemplo .carousel-item {
+  height: 100%;
+  width: 100%;
+  /* Estilo de las imágenes dentro de cada item */
+}
+#carouselejemplo .carousel-item img {
+  width: 100%; /* Imagen llena de ancho */
+  height: 100%; /* Imagen llena de altura */
+  -o-object-fit: cover;
+     object-fit: cover; /* Asegura que la imagen cubra todo el área */
+  -o-object-position: center;
+     object-position: center; /* Centra la imagen dentro del contenedor */
+}
+
+/* --------------------------- SECCIÓN VENTAS ---------------------------- */
+.ventas {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: #FFBF00; /* Color de fondo para la sección de ventas */
+  padding: 5%; /* Espaciado interno de la sección */
+}
+
+.cajaventas {
+  position: relative; /* Necesario para los efectos de pseudo-elemento */
+  overflow: hidden; /* Esconde cualquier contenido fuera del área */
+  border: 1px solid #ccc; /* Borde gris claro */
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  transition: all 0.3s ease; /* Suaviza la transición en el hover */
+  background-color: white; /* Fondo blanco para las cajas */
+  width: 300px; /* Ancho fijo */
+  height: 200px; /* Alto fijo */
+}
+
+/* Efecto hover con sombra para la caja completa */
+.cajaventas::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* Sombra negra semi-transparente */
+  z-index: 1; /* Coloca la sombra encima del contenido */
+  transition: opacity 0.3s ease; /* Transición suave para la sombra */
+  opacity: 0; /* La sombra está invisible inicialmente */
+}
+
+/* Mostrar la sombra al hacer hover */
+.cajaventas:hover::after {
+  opacity: 1; /* Hace visible la sombra cuando se pasa el ratón */
+}
+
+/* Estilo de la imagen dentro de cada caja de ventas */
+.imagen-articulo {
+  width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+  height: 200px; /* Altura fija para la imagen */
+  -o-object-fit: cover;
+     object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+  margin-bottom: 10px; /* Espaciado debajo de la imagen */
+  transition: transform 0.3s ease; /* Efecto de transición al hacer hover */
+}
+
+.boton-ver-mas {
+  display: none; /* El botón está oculto por defecto */
+  position: absolute;
+  bottom: 20px; /* Ubica el botón en la parte inferior de la caja */
+  left: 50%;
+  transform: translateX(-50%); /* Centra el botón horizontalmente */
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo del botón */
+  color: white; /* Color del texto */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 2; /* Coloca el botón encima de la sombra */
+  transition: background-color 0.3s ease; /* Transición de color en hover */
+}
+
+/* Mostrar el botón al hacer hover en la caja */
+.cajaventas:hover .boton-ver-mas {
+  display: block; /* Muestra el botón cuando se pasa el ratón por encima de la caja */
+}
+
+/* Efecto de hover en el botón "Ver más" */
+.cajaventas:hover .boton-ver-mas:hover {
+  background-color: #e8603c; /* Cambio de color al hacer hover en el botón */
+}
+
+.products-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f8f9fa;
+}
+
+.offer {
+  background-color: #fff4cc !important;
+  border: 2px solid #FFBF00 !important;
+  position: relative !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.product-card .card-img-top {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card .card-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.product-card .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product-card .card-text {
+  font-size: 1rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.product-card .btn-primary {
+  background-color: #FFBF00;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.product-card .btn-primary:hover {
+  background-color: #ffcc00;
+}
+
+.offer::before {
+  content: "¡Oferta!";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ff5100;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  z-index: 2;
+}
+
+.offer .sale-price {
+  color: #FFBF00;
+  font-weight: bold;
+}
+
+.offer .original-price {
+  text-decoration: line-through;
+  color: #777;
+}
+
+h3.text-center.mb-4 {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Barra de Promoción verde */
+.promo-bar {
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #d34508; /* Amarillo oscuro */
+}
+
+.promo-bar {
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #28a745; /* Verde */
+  overflow: hidden; /* Evita que el texto se desborde */
+}
+
+.promo-text {
+  animation: move-text 10s linear infinite; /* Hace que el texto se desplace */
+}
+
+/* Animación para mover el texto */
+@keyframes move-text {
+  0% {
+    transform: translateX(100%); /* Comienza fuera de la pantalla a la derecha */
+  }
+  100% {
+    transform: translateX(-100%); /* Termina fuera de la pantalla a la izquierda */
+  }
+}
+/* Producto: Estilo de la cantidad */
+.cantidad-producto {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+
+.cantidad-producto .form-label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.cantidad-producto .input-cantidad {
+  width: 70px;
+  height: 35px;
+  font-size: 18px;
+  text-align: center;
+  background-color: white;
+  color: #333;
+  border-radius: 40px;
+  border: 2px solid #ffbf00;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cantidad-producto .input-cantidad:focus {
+  border-color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 3, 0.3);
+}
+
+/* Estilos para el botón de "Agregar al carrito" */
+.agregar-carrito {
+  display: flex;
+  margin-top: 20px;
+}
+
+.agregar-carrito .btn-agregar {
+  background-color: #ffbf00;
+  color: white !important;
+  font-size: 16px;
+  padding: 12px 25px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.agregar-carrito .btn-agregar:hover {
+  background-color: #795b02;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.agregar-carrito .btn-agregar:active {
+  background-color: #ae8302;
+}
+
+/* Estilos para las tarjetas de productos */
+.producto-card .card-img-top {
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Estilo base para las tarjetas de productos */
+.producto-card {
+  transition: all 0.3s ease-in-out; /* Transición suave */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Efecto hover */
+.producto-card:hover {
+  transform: translateY(-5px); /* Levanta la tarjeta */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Sombra más prominente */
+}
+
+/* Opcional: Efecto sobre la imagen al pasar el ratón */
+.producto-card:hover .card-img-top {
+  opacity: 0.85; /* Hace que la imagen se oscurezca ligeramente */
+  transition: opacity 0.3s ease;
+}
+
+.producto-card .card {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Sección de ventas */
+.ventas {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/* Estilo de la sección de publicidad */
+.publicidad {
+  color: black;
+  margin-top: 10%;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo para el texto con barra de promoción */
+.subrayado {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+  color: #333;
+  overflow: hidden; /* Evita que la barra se salga del texto */
+}
+
+/* barra de subrayado de otros productos */
+.subrayado::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* La barra tiene el ancho del texto */
+  height: 7px; /* Grosor de la línea */
+  background-color: #FFBF00; /* Verde */
+  animation: move-line 5s linear infinite; /* Animación para el movimiento de la barra */
+}
+
+/* Animación para mover la línea */
+@keyframes move-line {
+  0% {
+    transform: translateX(-100%); /* Comienza fuera de la pantalla a la izquierda */
+  }
+  100% {
+    transform: translateX(100%); /* La barra se desplaza completamente fuera a la derecha */
+  }
+}
+/* Contenedor de texto */
+.promo-text {
+  display: inline-block;
+  white-space: nowrap; /* Evita que el texto se rompa */
+  position: relative;
+  z-index: 1; /* Asegura que el texto esté encima de la barra */
+  bottom: 8px;
+}
+
+/* Beneficios y Usos */
+#beneficiosUsos {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+
+#beneficiosUsos h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+#beneficiosUsos .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#beneficiosUsos .card-header {
+  background-color: #FFBF00;
+  color: white;
+  font-weight: bold;
+}
+
+#beneficiosUsos .card-body {
+  background-color: white;
+  padding: 1.25rem;
+  font-size: 1rem;
+}
+
+.beneficiosUsos ul {
+  padding-left: 1.25rem;
+  list-style-type: disc;
+  color: #555;
+}
+
+.beneficiosUsos ul li {
+  margin-bottom: 0.5rem;
+}
+
+.beneficiosUsos .row {
+  margin-top: 2rem;
+}
+
+/* Estilos para la Barra de Búsqueda */
+.contenedorinput {
+  margin-top: 20px; /* Espacio entre el nav y la barra de búsqueda */
+  margin-bottom: 40px; /* Espacio entre la barra de búsqueda y los detalles del producto */
+}
+
+.contenedorinput .form-control {
+  border-radius: 50px; /* Bordes redondeados para un estilo minimalista */
+  border: 2px solid #ccc; /* Borde suave */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de la fuente */
+  box-shadow: none; /* Sin sombra para un estilo más limpio */
+}
+
+/* Estilos para el campo de búsqueda */
+.form-control {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  width: 100%;
+}
+
+.contenedorinput .form-control:focus {
+  border-color: #FFBF00; /* Color de borde cuando está enfocado */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra al enfocar */
+}
+
+@media (max-width: 768px) {
+  .contenedorinput .form-control {
+    font-size: 14px; /* Reducir el tamaño de la fuente en pantallas pequeñas */
+    padding: 8px 15px; /* Ajustar el espaciado en pantallas pequeñas */
+  }
+}
+/* Estilo para los botones */
+.btn-option {
+  background-color: white !important;
+  border: 2px solid #FFBF00 !important; /* Borde amarillo */
+  color: #333 !important; /* Color de texto gris oscuro */
+  font-size: 16px !important;
+  padding: 12px !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  border-radius: 10px !important; /* Bordes redondeados */
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  position: relative !important;
+  transition: all 0.3s ease !important;
+  /* Efecto hover */
+  /* Añadir espacio para el texto "Ver disponibilidad de stock" */
+  /* Íconos de check */
+}
+.btn-option:hover {
+  background-color: #FFBF00 !important;
+  color: white !important;
+  border-color: white !important;
+}
+.btn-option .stock-availability {
+  font-size: 12px;
+  color: #007bff;
+  text-decoration: underline;
+}
+.btn-option .fa-check {
+  position: absolute;
+  right: 10px;
+  display: none; /* Inicialmente oculto */
+}
+
+/* Cuando el radio está seleccionado, mostrar el check */
+.btn-check:checked + .btn-option {
+  background-color: #FFBF00;
+  color: white;
+  border-color: white;
+}
+.btn-check:checked + .btn-option .fa-check {
+  display: inline-block; /* Mostrar el ícono de check cuando esté seleccionado */
+}
+
+/* Responsividad: Los botones se apilan verticalmente */
+@media (max-width: 768px) {
+  .col-12 {
+    width: 100%; /* Los botones ocuparán todo el ancho */
+  }
+}/*# sourceMappingURL=miestilo.css.map */

@@ -1,0 +1,51 @@
+@mixin header {
+    font-weight: $weight-tituloysub;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    transition: all 0.3s ease;
+    background-color: #ffbf00 !important;
+    width: 35px;
+    height: 35px;
+    text-decoration: underline;
+    text-underline-offset: 4px;  
+}
+
+
+
+@mixin btn01 {
+  
+    background-color: #ffbf00;
+    color: white !important;
+    font-size: 16px;
+    padding: 12px 25px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  
+
+  &:hover {
+    background-color: #795b02;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  &:active {
+    background-color: #ae8302;
+  }
+}
+
+
+@mixin boton02{
+  background-color: #FFBF00;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    &:hover{
+      background-color: darken(#FFBF00, 10%);
+      color: #fff;
+    }
+}
+
