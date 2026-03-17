@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/scss/miestilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Bebas+Neue&family=Ewert&family=Manrope:wght@200..800&display=swap');
+      </style>
+    <title>Inicio</title>
+</head>
+<body>
+
+  <!-- ============================================
+     Sección de Encabezado (Header)
+     ============================================ -->
+  <header class="header">
+    
+    <!-- Barra de Promoción (Publicidad) -->
+    <div class="promo-bar bg-success text-white text-center py-2">
+      <div class="promo-text">
+          ¡Ahorra más! Compra 2 frascos de miel y obtén un 10% de descuento en tu próxima compra. 
+          ¡Promociones exclusivas solo por tiempo limitado! ¡No te lo pierdas!
+      </div>
+    </div>
+  
+    
+    <!-- Barra de Navegación -->
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light headercolor d-flex justify-content-between">
+            <a class="navbar-brand" href="index.html"><img src="assets/img/logo-apimelipulli.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link navcolor navh" href="index.html">Inicio<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navcolor navh" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navcolor navh" href="contactos.html">Contactos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link navcolor dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Extras
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="visitanos.html">Visitanos</a>
+                  <a class="dropdown-item" href="reserva-entrada.html">Reserva tu entrada</a>
+                  <a class="dropdown-item" href="recetas.html">Recetas</a>
+                  <a class="dropdown-item" href="beneficios.html">Beneficios</a>
+                  <a class="dropdown-item" href="info-apicola.html">Info apicola</a>
+                  <a class="dropdown-item" href="equipo.html">Nuestro equipo</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navcolor" href="carrito.html"><img class="carritomaxi" src="assets/img/carrito-de-compras.png" alt="Carrito de compras"></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    
+    <!-- Carousel de Promociones -->
+    <div id="promoCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="assets/img/fotocarousel 1.gif" class="d-block w-100" alt="Miel de Oferta 1">
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="assets/img/fotocarousel 2.jpg" class="d-block w-100" alt="Miel Orgánica en Oferta">
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="assets/img/fotocarousel 3.jpg" class="d-block w-100" alt="Miel Floral Oferta">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#promoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#promoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+  </header>
+
+
+  <!-- ============================================
+     Cuerpo Principal (Main Content)
+     ============================================ -->
+  <main class="main-content">
+    
+    <!-- Sección Hero (Banner principal) -->
+    <section class="hero">
+        <div class="container text-center">
+            <h1>Descubre la dulzura de la miel natural</h1>
+            <p>Ofrecemos los mejores productos de miel, 100% naturales y frescos.</p>
+            <a href="productos.html" class="btn btn-warning btn-lg">Ver Productos</a>
+        </div>
+    </section>
+  
+    <!-- Sección de Productos -->
+    <section id="productos" class="productos py-5">
+        <div class="container">
+          <h2 class="section-title text-center mb-5 productos-recientes">Nuestros productos más recientes</h2>
+
+            <div class="row">
+                <!-- Producto 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/mielcard1.jpeg" class="card-img-top" alt="Miel de Abeja">
+                        <div class="card-body">
+                            <h5 class="card-title">Miel de Abeja</h5>
+                            <p class="card-text">La miel más pura y natural que puedes encontrar. Extraída de colmenas locales.</p>
+                            <a href="carrito.html" class="btn btn-warning">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/mielcard2.webp" class="card-img-top" alt="Miel Orgánica">
+                        <div class="card-body">
+                            <h5 class="card-title">Miel Orgánica</h5>
+                            <p class="card-text">Miel certificada orgánica, perfecta para los más exigentes en calidad.</p>
+                            <a href="carrito.html" class="btn btn-warning">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/mielcard3.webp" class="card-img-top" alt="Miel Floral">
+                        <div class="card-body">
+                            <h5 class="card-title">Miel Floral</h5>
+                            <p class="card-text">Miel con un toque floral único, obtenida de flores silvestres en áreas protegidas.</p>
+                            <a href="carrito.html" class="btn btn-warning">Comprar ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Sección de Historia de la Tienda -->
+    <section id="historia" class="historia py-5">
+        <div class="container text-center">
+            <h2 class="section-title mb-4">La Historia de nuestra Miel</h2>
+            <p class="lead mb-4">En nuestra tienda, nos especializamos en ofrecer miel 100% natural. Durante más de 20 años, hemos trabajado junto a apicultores locales para ofrecer productos de la más alta calidad, recogiendo la esencia de la naturaleza.</p>
+            
+            <div class="row justify-content-center">
+                <!-- Video incrustado de YouTube -->
+                <div class="col-12 col-lg-8 mb-4">
+                    <div class="video-container">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qRW6zZtd2MI" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <img src="assets/img/nuestramiel.jpeg" class="img-fluid rounded" alt="Historia de la Miel">
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h3>¿Qué hace especial a nuestra miel?</h3>
+                    <p>La miel que vendemos es 100% pura, sin aditivos ni conservantes. Cada frasco es una combinación única de flores locales que brindan propiedades especiales tanto para la salud como para el paladar. ¡Descubre la magia de la naturaleza en cada gota!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+  </main>
+
+  
+  <!-- ============================================
+     Pie de Página (Footer)
+     ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Logo de Apimelipulli -->
+        <div class="col-12 col-md-4">
+          <a href="index.html">
+            <img src="assets/img/logo-apimelipulli.png" alt="Logo Apimelipulli" class="logo-footer">
+          </a>
+        </div>
+  
+        <!-- Redes Sociales -->
+        <div class="col-12 col-md-4">
+          <h5 class="footer-title">Síguenos</h5>
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon">
+              <img src="assets/img/facebook.png" alt="Facebook" class="social-icon-img">
+              <span class="social-name">Facebook</span>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon">
+              <img src="assets/img/instagram.png" alt="Instagram" class="social-icon-img">
+              <span class="social-name">Instagram</span>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="social-icon">
+              <img src="assets/img/gorjeo.png" alt="Twitter" class="social-icon-img">
+              <span class="social-name">Twitter</span>
+            </a>
+          </div>
+        </div>
+  
+        <!-- Contactos -->
+        <div class="col-12 col-md-4">
+          <h5 class="footer-title">Contáctanos</h5>
+          <ul class="contact-list">
+            <li><img src="assets/img/negro.png" alt="Teléfono" class="contact-icon"> Teléfono: +123 456 789</li>
+            <li><img src="assets/img/gmail.png" alt="Email" class="contact-icon"> Email: contacto@apimelipulli.cl</li>
+            <li><img src="assets/img/pin-de-mapa.png" alt="Dirección" class="contact-icon"> Dirección: Calle Ficticia 123, Ciudad, País</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Mapa de ubicación -->
+      <div class="row">
+        <div class="col-12">
+          <h5 class="footer-title">Nuestra Ubicación</h5>
+          <div class="map-container">
+            <!-- Incluir un iframe de Google Maps -->
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13123.1231231231!2d-70.64827!3d-33.45678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e80000000000000%3A0x0000000000000000!2sApimelipulli!5e0!3m2!1ses-419!2scl!4v1630243513131" 
+              width="100%" 
+              height="300" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Línea de separación -->
+    <div class="footer-line"></div>
+  </footer>  
+</body>
+
+
+
+
+
+
+  
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+    
